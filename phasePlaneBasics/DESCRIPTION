@@ -1,0 +1,11 @@
+Package: phasePlaneBasics
+Title: Nullcline and Phase Arrow Plotting
+Version: 0.0.0.9000
+Authors@R: 
+    person("Patrick", "Bloniasz", , "patrick.bloniasz@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-8652-7609"))
+Description: This package is only intended for use within the Math1808 Biomathematics classroom at Bowdoin College. It is designed to allow students to easily plot nullclines and phase arrows in one and two dimensional ODEs. This was adapted from Dynamic Models in Biology by S.P. Ellner and J. Guckenheimer, Princeton University Press (2006) for purely educational purposes.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
