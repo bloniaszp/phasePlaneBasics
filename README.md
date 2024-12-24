@@ -9,15 +9,14 @@
 ## Table of Contents
 
 1. [Features](#features)  
-2. [Installation](#installation)  
-3. [Usage](#usage)  
+2. [Installation](#installation)
+3. [Functions](#functions) 
+4. [Usage](#usage)  
    - [Quick Example](#quick-example)  
    - [Phase Arrows](#phase-arrows)  
    - [Nullclines](#nullclines)  
-4. [Functions](#functions)  
-5. [Contributing](#contributing)  
-6. [License](#license)  
-7. [Acknowledgments](#acknowledgments)  
+5. [License](#license)  
+6. [Acknowledgments](#acknowledgments)  
 
 ---
 
@@ -38,29 +37,6 @@ You can install **PhasePlaneBasics** directly from GitHub using **`devtools`**:
 devtools::install_github("bloniaszp/phasePlaneBasics")
 ```
 
-## Quick Example
-Below is a quick demonstration using the morrislecar function. This function simulates a simple two-dimensional neural model:
-
-```r
-morrislecar <- function(V, W, parms = NULL) {
-  g_L  <- 2;    g_Ca <- 4;    g_K  <- 8;     phi  <- 0.04
-  cap  <- 20;   V_1  <- -1.2; V_2  <- 18;    V_3  <- 2
-  V_4  <- 30;   V_L  <- -60;  V_Ca <- 120;   V_K  <- -84
-  I    <- 0
-
-  c(
-    (1 / cap) * (I - g_Ca * 0.5 * (1 + tanh((V - V_1) / V_2)) * (V - V_Ca)
-                 - g_K * W * (V - V_K)
-                 - g_L * (V - V_L)),
-    phi * (0.5 * (1 + tanh((V - V_3) / V_4)) - W) *
-         cosh((V - V_3) / (2 * V_4))
-  )
-}
-```
-
-
-# PhasePlaneBasics
-
 ## Usage
 
 After installation, load the package as usual:
@@ -68,6 +44,8 @@ After installation, load the package as usual:
 ```r
 library(PhasePlaneBasics)
 ```
+
+---
 
 ## Functions
 
