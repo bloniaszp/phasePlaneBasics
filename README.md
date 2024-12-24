@@ -2,7 +2,7 @@
 <!-- badges: start -->
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
-[![R-CMD-check](https://github.com/bloniaszp/phasePlaneBasics/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bloniaszp/phasePlaneBasics/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/bloniaszp/phasePlaneBasics/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/bloniaszp/phasePlaneBasics/actions/workflows/R-CMD-check.yml)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 <!-- badges: end -->
