@@ -84,7 +84,7 @@ Plots the curves where 𝑑𝑥/𝑑𝑡 = 0 or 𝑑𝑦/𝑑𝑡 = 0.
 ## Quick Example
 Below is a quick demonstration using the morrislecar function. This function simulates a simple two-dimensional neural model:
 
-![Phase Plane Example](figures/phase_plane_example.png)
+![Phase Plane Example](phase_plane_example.png)
 
 ```r
 # Load the package
