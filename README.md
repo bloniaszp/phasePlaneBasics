@@ -79,12 +79,18 @@ Plots the curves where 𝑑𝑥/𝑑𝑡 = 0 or 𝑑𝑦/𝑑𝑡 = 0.
 Below is a quick demonstration using the morrislecar function. This function simulates a simple two-dimensional neural model:
 
 ```r
+# Load the package
+library(PhasePlaneBasics)
+
+# Define the Morris-Lecar model function
 morrislecar <- function(V, W, parms = NULL) {
+  # Define parameters
   g_L  <- 2;    g_Ca <- 4;    g_K  <- 8;     phi  <- 0.04
   cap  <- 20;   V_1  <- -1.2; V_2  <- 18;    V_3  <- 2
   V_4  <- 30;   V_L  <- -60;  V_Ca <- 120;   V_K  <- -84
   I    <- 0
 
+  # Return the equations
   c(
     (1 / cap) * (I - g_Ca * 0.5 * (1 + tanh((V - V_1) / V_2)) * (V - V_Ca)
                  - g_K * W * (V - V_K)
@@ -93,6 +99,11 @@ morrislecar <- function(V, W, parms = NULL) {
          cosh((V - V_3) / (2 * V_4))
   )
 }
+
+# Define plot limits for the phase plane
+xlims <- c(-80, 40) # Voltage range
+ylims <- c(-0.2, 1.2) # Recovery variable range
+
 ```
 
 ## Phase Arrows
@@ -100,12 +111,13 @@ To visualize the vector field:
 
 ```r
 
+# Create a phase plane with phase arrows
 phasearrows(
-  fun    = morrislecar, 
-  xlims  = c(-80, 40), 
-  ylims  = c(-0.2, 1.2), 
-  resol  = 30,
-  col    = "black"
+  fun   = morrislecar,
+  xlims = xlims,
+  ylims = ylims,
+  resol = 30, # Grid resolution
+  col   = "black" # Arrow color
 )
 
 ```
@@ -115,12 +127,18 @@ To overlay nullclines on the same plot, simply call:
 
 ```r
 
+# Overlay nullclines on the phase plane
 nullclines(
-  fun    = morrislecar,
-  xlims  = c(-80, 40),
-  ylims  = c(-0.2, 1.2),
-  resol  = 150,
-  add    = TRUE
+  fun   = morrislecar,
+  xlims = xlims,
+  ylims = ylims,
+  resol = 150, 
+  add   = TRUE 
+)
+
+legend(
+  "topright", legend = c("V nullcline", "W nullcline"),
+  col = c("blue", "forestgreen"), lty = 1, cex = 0.8
 )
 
 ```
