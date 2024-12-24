@@ -1,6 +1,13 @@
 # PhasePlaneBasics
-![R-CMD-check](https://github.com/bloniaszp/phasePlaneBasics/workflows/R-CMD-check/badge.svg)  
+<!-- badges: start -->
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+[![R-CMD-check](https://github.com/bloniaszp/phasePlaneBasics/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/bloniaszp/phasePlaneBasics/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/bloniaszp/phasePlaneBasics/branch/main/graph/badge.svg)](https://app.codecov.io/gh/bloniaszp/phasePlaneBasics?branch=main)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+<!-- badges: end -->
+
 
 **PhasePlaneBasics** is an R package providing functions to visualize two-dimensional dynamical systems through phase arrows and nullclines. It includes functions to help students, educators, and researchers quickly understand the behavior of differential equations by plotting trajectories and identifying critical points. It's light weight and allows for quickly generating phase planes with minimal code.
 
