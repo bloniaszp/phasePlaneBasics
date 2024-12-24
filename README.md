@@ -1,5 +1,5 @@
 # PhasePlaneBasics
-![R-CMD-check](https://github.com/your-username/PhasePlane1808/workflows/R-CMD-check/badge.svg)  
+![R-CMD-check](https://github.com/bloniaszp/PhasePlane1808/workflows/R-CMD-check/badge.svg)  
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 **PhasePlaneBasics** is an R package providing functions to visualize two-dimensional dynamical systems through phase arrows and nullclines. It includes functions to help students, educators, and researchers quickly understand the behavior of differential equations by plotting trajectories and identifying critical points. It's light weight and allows for quickly generating phase planes with minimal code.
