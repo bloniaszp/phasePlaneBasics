@@ -143,11 +143,6 @@ nullclines(
   add   = TRUE 
 )
 
-legend(
-  "topright", legend = c("V nullcline", "W nullcline"),
-  col = c("blue", "forestgreen"), lty = 1, cex = 0.8
-)
-
 ```
 
 ### Acknowledgments
