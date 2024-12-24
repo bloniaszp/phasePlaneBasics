@@ -24,8 +24,8 @@
 ## Features
 
 - **Phase Arrows**: Generate arrows or “vector fields” showing the direction of state-space flow in a 2D system.  
-- **Nullclines**: Plot the lines where \(\dot{x} = 0\) or \(\dot{y} = 0\), helping visualize equilibria and system behavior.  
-- **Easy Integration**: Pass in any user-defined function \(\texttt{fun(x, y, parms)}\) that returns \(\texttt{c(dx/dt, dy/dt)}\).  
+- **Nullclines**: Plot the lines where $\dot{x} = 0$ or $\dot{y} = 0$, helping visualize equilibria and system behavior.  
+- **Easy Integration**: Pass in any user-defined function `fun(x, y, parms)` that returns `c(dx/dt, dy/dt)`.  
 - **Customizable**: Tweak resolution, color, and plot appearance.  
 ---
 
