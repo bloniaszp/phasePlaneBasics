@@ -16,7 +16,6 @@ Description: Provides functions to draw phase arrows and nullclines
   Biomathematics at Bowdoin College. The code has been condensed to only have
   phase planes and nullclines. This script is being used under the presumption of
   Fair Use copyright law for educational purposes. 
-
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
