@@ -18,9 +18,8 @@ Description: Provides functions to draw phase arrows and nullclines
   Fair Use copyright law for educational purposes. 
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
 Roxygen: list(markdown = FALSE)
 RoxygenNote: 7.3.2
-Imports:
-    graphics,
-    stats
+Imports: graphics, stats
+NeedsCompilation: no
+Packaged: 2024-12-24 19:09:47 UTC; patrick_bloniasz
