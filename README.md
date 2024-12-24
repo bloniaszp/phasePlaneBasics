@@ -10,6 +10,7 @@
 
 **PhasePlaneBasics** is an R package providing functions to visualize two-dimensional dynamical systems through phase arrows and nullclines. It includes functions to help students, educators, and researchers quickly understand the behavior of differential equations by plotting trajectories and identifying critical points. It's light weight and allows for quickly generating phase planes with minimal code.
 
+![Phase Plane Example](phase_plane_example.png)
 ---
 
 ## Table of Contents
@@ -83,8 +84,6 @@ Plots the curves where 𝑑𝑥/𝑑𝑡 = 0 or 𝑑𝑦/𝑑𝑡 = 0.
 
 ## Quick Example
 Below is a quick demonstration using the morrislecar function. This function simulates a simple two-dimensional neural model:
-
-![Phase Plane Example](phase_plane_example.png)
 
 ```r
 # Load the package
